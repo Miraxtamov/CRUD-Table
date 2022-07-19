@@ -1,10 +1,10 @@
 import React from "react";
-import Edit from "./Edit";
+import Crud from "./Crud";
 
 function App() {
 	return (
 		<>
-			<Edit />
+			<Crud />
 		</>
 	);
 }

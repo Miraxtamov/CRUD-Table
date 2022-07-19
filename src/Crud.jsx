@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import students from "./students";
 
-const Edit = () => {
+const Crud = () => {
 	const memory = localStorage.getItem("key");
 
 	const [data, setData] = useState(memory ? JSON.parse(memory) : students);
@@ -166,4 +166,4 @@ const Edit = () => {
 	);
 };
 
-export default Edit;
+export default Crud;
