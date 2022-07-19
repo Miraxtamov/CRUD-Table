@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+button:active {
+	transform: scale(0.98);
+	opacity: 0.5;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
+.title {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+input {
+	margin: 10px auto;
+	width: 45%;
+	padding: 12px;
+	outline: none;
+	border: 1px solid rgb(87, 125, 175);
+	font-size: 16px;
+	display: block;
+}
+
+.add-btn {
+	border: 1px solid aqua;
+	background-color: aqua;
+	font-size: 16px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 90px;
+}
+
+.button {
+	width: 45%;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 12px;
+}
+
+.button1 {
+	cursor: pointer;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.delete-all {
+	width: 15%;
+	background-color: red;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	border: 1px solid red;
+	color: #ffffff;
+}
+
+.btn-edit {
+	width: 100%;
+	border: 1px solid orange;
+	background-color: orange;
+	color: #ffffff;
+}
+
+.btn-delete {
+	width: 100%;
+	border: 1px solid rgb(238, 59, 59);
+	background-color: rgb(238, 59, 59);
+	color: #ffffff;
+	margin-top: 3px;
+}
+
+.input-save {
+	width: 100%;
+}
+
+.btn-save {
+	width: 49%;
+	border: 1px solid green;
+	background-color: green;
+	color: #ffffff;
+}
+
+.btn-cancel {
+	width: 49%;
+	border: 1px solid cadetblue;
+	background-color: cadetblue;
+	color: #ffffff;
+	margin-left: 3px;
+}
+
+th,
+td {
+	border: 1px solid #cccccc;
+	text-align: left;
+	padding: 8px;
+}
